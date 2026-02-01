@@ -133,7 +133,7 @@ class NaiveteRulebook extends HTMLElement {
     These terms are governed by applicable laws without regard to conflict of
     law principles.
   </p>
-      <button class="close-btn">Close Rulebook</button>
+      <button class="close-btn">Close</button>
       `
     ];
 
