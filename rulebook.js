@@ -6,81 +6,135 @@ class NaiveteRulebook extends HTMLElement {
 
     this.pages = [
       `
-      <h1>Naïveté: Base Instincts</h1>
+      <h1>Digitalknuckles Licensing & Legal Disclosures</h1>
       <p class="tagline">Broken is beautiful — Build your face.</p>
-      <p>This tutorial explains setup, pipelines, duels, items & tactical identity formation.</p>
+      <p>
+      This website, all associated smart contracts, and all DigitalKnuckles NFTs
+      are created and published by <strong>Digitalknuckles</strong> (“Creator”, “Designer”).
+      By minting, purchasing, holding, or transferring a DigitalKnuckles NFT, you
+      agree to the following terms.
+      </p>
       `,
 
       `
-      <h2>Setup</h2>
-      <ul>
-        <li>Each player selects an <strong>Avatar Core</strong>.</li>
-        <li>Each places an <strong>Item</strong> directly behind their Avatar.</li>
-        <li>Shuffle and draw 3 cards each (Player 1 draws 4).</li>
-      </ul>
+       
+      <h3>1. Intellectual Property Ownership</h3>
+      <p>
+        All artwork, designs, characters, animations, metadata, names, logos,
+        trademarks, copyrights, and associated intellectual property remain the
+        exclusive property of Digitalknuckles.
+      </p>
+      <p>
+        No ownership of intellectual property is transferred through the sale or
+        transfer of an NFT.
+      </p>
       `,
 
       `
-      <h2>Turn Flow</h2>
-      <ol>
-        <li>Place a card adjacent to one you control.</li>
-        <li>Connections must match Limb Types.</li>
-        <li>Drawing a card may occur once per turn (max hand 5).</li>
-        <li>If you touch the opponent’s pipeline → <strong>Duel!</strong></li>
-      </ol>
+      <h3>2. License Granted to NFT Holders</h3>
+      <p>
+        Subject to continued ownership of a valid DigitalKnuckles NFT, holders are
+        granted a <strong>limited, non-exclusive, non-transferable, revocable license</strong>
+        to display the associated artwork for:
+      </p>
+        <ul>
+        <li>Personal, non-commercial use</li>
+        <li>Display in virtual galleries, wallets, or social media</li>
+        <li>Resale or transfer of the NFT itself</li>
+        </ul>
+        <p>
+        Commercial use, sublicensing, merchandising, reproduction, modification,
+        or derivative works are strictly prohibited unless explicitly licensed in writing.
+        </p>
       `,
 
       `
-      <h2>Duel Rules</h2>
-      <ul>
-        <li>Compare Duel Values.</li>
-        <li>Winner captures & flips the contested card.</li>
-        <li>Winner gains a <strong>bonus action</strong> (may play or rotate again).</li>
-      </ul>
+        <h3>3. NFT Secondary Sales & Creator Royalties</h3>
+        <p>
+          Certain DigitalKnuckles NFTs include on-chain royalty logic implemented
+          through ERC-compatible smart contracts (e.g., ERC-2981 or marketplace-level enforcement).
+        </p>
+        <p>
+          Any creator royalty is a <strong>technical feature of the smart contract</strong>,
+          not a legal entitlement, revenue share, investment return, or security interest.
+          Royalties are only applied if and when supported by the executing marketplace
+          or protocol.
+        </p>
+      
+        <p>
+          Digitalknuckles makes no representations or guarantees regarding:
+        </p>
+        <ul>
+          <li>Royalty enforcement on secondary markets</li>
+          <li>Marketplace compliance</li>
+          <li>Future royalty standards or implementations</li>
+        </ul>
       `,
 
       `
-      <h2>Item Win Condition</h2>
-      <p>If your pipeline reaches the opponent’s Item and you win the duel → you win the round.</p>
-      <p>Field clears, hands remain.</p>
-      `,
-
-      `
-      <h2>Dynamic Grid</h2>
-      <p>The grid expands whenever a card is placed outside the current boundary.</p>
-      <p>Territory matters — shape the field, shape the fight.</p>
+        <h3>5. No Financial Rights or Investment Intent</h3>
+        <p>
+          DigitalKnuckles NFTs are <strong>digital collectibles</strong> intended for
+          creative, artistic, entertainment, and access purposes only.
+        </p>
+        <p>
+          NFTs do not represent:
+        </p>
+        <ul>
+          <li>Equity or ownership in Digitalknuckles</li>
+          <li>Profit-sharing or revenue participation</li>
+          <li>Dividends, yield, or passive income</li>
+          <li>Voting rights or governance rights</li>
+        </ul>
+      
+        <p>
+          No expectation of profit is promoted or implied from the efforts of
+          Digitalknuckles or any third party.
+        </p>
       `,
 
 `
-<h2>How to Play — Video Walkthrough</h2>
-<div class="video-wrapper">
-  <iframe 
-    src="https://www.youtube.com/embed/M6g_RdOoUoE"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
-</div>
-<p class="mt-2" style="opacity:.75; font-size:.9rem;">
-  If the video doesn't play: open in new tab → 
-  <a href="https://www.youtube.com/watch?v=M6g_RdOoUoE" target="_blank" style="color:#ffd36a;text-decoration:underline;">
-    Watch on YouTube
-  </a>
-</p>
+  <h3>6. Regulatory Disclosures (SEC / MiCA)</h3>
+  <p>
+    DigitalKnuckles NFTs are not securities, financial instruments, or investment
+    products under U.S. securities laws, including the Howey Test, nor under the
+    EU Markets in Crypto-Assets Regulation (MiCA).
+  </p>
+  <p>
+    NFTs are not marketed as investments, are not pooled, and do not rely on
+    managerial efforts to generate financial returns.
+  </p>
 `,
 
       `
-      <h2>Full Rulebook (Printable)</h2>
-      <p>You can view the full formatted rulebook here:</p>
-      <a class="cid-link" target="_blank"
-        href="https://ipfs.io/ipfs/bafkreifalsawwhrc4t6oo2bjcfj72cfzyw2xbfugq6hjofibuwse7upcbu">
-        📄 View Full Rulebook (IPFS / CID)
-      </a>
+  <h3>7. No Guarantees or Roadmap Commitments</h3>
+  <p>
+    Any references to future features, utilities, experiences, games, or
+    integrations are aspirational and non-binding.
+  </p>
+  <p>
+    Digitalknuckles reserves the right to modify, pause, or discontinue any
+    aspect of the project at any time.
+  </p>
       `,
 
       `
-      <h2>End of Tutorial</h2>
-      <p>Return to the grid. Build yourself. Break each other open.</p>
+  <h3>8. Assumption of Risk</h3>
+  <p>
+    NFTs involve technological, regulatory, and market risks, including but not
+    limited to smart contract vulnerabilities, platform failure, and market volatility.
+  </p>
+
+  <p>
+    By interacting with this website or associated smart contracts, you assume
+    all risks and agree that Digitalknuckles shall not be liable for any losses.
+  </p>
+
+  <h3>9. Governing Law</h3>
+  <p>
+    These terms are governed by applicable laws without regard to conflict of
+    law principles.
+  </p>
       <button class="close-btn">Close Rulebook</button>
       `
     ];
