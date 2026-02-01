@@ -6,8 +6,7 @@ class NaiveteRulebook extends HTMLElement {
 
     this.pages = [
       `
-      <h1>Digitalknuckles Licensing & Legal Disclosures</h1>
-      <p class="tagline">Broken is beautiful — Build your face.</p>
+      <h3>Digitalknuckles Licensing & Legal Disclosures</h3>
       <p>
       This website, all associated smart contracts, and all DigitalKnuckles NFTs
       are created and published by <strong>Digitalknuckles</strong> (“Creator”, “Designer”).
@@ -17,7 +16,6 @@ class NaiveteRulebook extends HTMLElement {
       `,
 
       `
-       
       <h3>1. Intellectual Property Ownership</h3>
       <p>
         All artwork, designs, characters, animations, metadata, names, logos,
